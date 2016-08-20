@@ -17,10 +17,10 @@ pickup_time = cellfun(str2datetime, uber_data{1}(:), 'UniformOutput', false );
 
 
 pickup_data.header = data_header;
-pickup_data.datetime = pickup_time;
+pickup_data.datetimeData = pickup_time;
 pickup_data.lat = uber_data{2}(:);
 pickup_data.lon = uber_data{3}(:);
-pickup_data.date = date_str;
-pickup_data.time = time_str;
+pickup_data.dateData = date_str;
+pickup_data.timeData = time_str;
 
 save(outfile_name, '-struct','pickup_data' );
