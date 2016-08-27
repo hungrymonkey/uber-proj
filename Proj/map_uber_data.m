@@ -1,8 +1,9 @@
 %run external script run.m
 run
 varname = @(x) inputname(1);
-uber_data_list = {uber4,uber5,uber6,uber7,uber8,uber9};
-uber_number = 4:9;
+uber_data_list = {uber5,uber7,uber8,uber9};
+closest_mean_list = {closestMean1,closestMean2,closestMean3,closestMean4};
+uber_number = [5,7,8,9];
 
 
 OSM_url = 'http://geoint.nrlssc.navy.mil/osm/wms/OSM/basemap/Mapnik/OSM_BASEMAP?';
@@ -29,9 +30,11 @@ for i=1:length(uber_data_list)
     %usamap(map_limits.lat, map_limits.lon);      % limit to New York area
     [A,R] = wmsread(layer,'Latlim',map_limits.lat, 'Lonlim', map_limits.lon);
     geoshow(A,R);
-    hold on;
-    geoshow(lat,lon, 'DisplayType', 'point');
-    %wmsread
-    
+    for j=unique( closest_mean_list{i}')
+        cl_mean = closest_mean_list{i};
+        hold on;
+        geoshow(lat(j==cl_mean),lon(j==cl_mean), 'DisplayType', 'point','MarkerEdgeColor', rand(1,3));
+        %wmsread
+    end
     saveas(fig, strcat('map_uber', num2str(uber_number(i)),'.png'));
 end

@@ -1,5 +1,5 @@
 %load uber-data-final
-function [output,meanLocs,nIters] = countArea(uberData,sample,p,subplotNum)
+function [output,closestMean,meanLocs,nIters] = countArea(uberData,sample,p,subplotNum)
 k=p;
 data=table2array(uberData);
 maxIters=9999;
