@@ -20,12 +20,12 @@ weekday_time = [week_t_cell{1};week_t_cell{2};week_t_cell{3};week_t_cell{4};week
 out sse cluster:3
    1.0e+06 *
 
-    1.2113    1.2172    1.2342
+    1.2113    1.2172    1.2342    1.2333    1.2381    1.2388
 
 out sse cluster:4
    1.0e+09 *
 
-    2.2045    2.2305    2.2657
+    2.2045    2.2305    2.2657    2.2858    2.2926    2.3064
 
 %}
 %sse values for all points
@@ -37,6 +37,8 @@ for i=3:4
                 two_model_rules(w, t_min, strcat('regression_all','_cl_', num2str(i)) );
     disp(strcat( 'out sse cluster: ', num2str(i)));
     disp(out_sse);
+    disp('weights: ');
+    disp( weights );
 end
 
 
