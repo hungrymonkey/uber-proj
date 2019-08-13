@@ -1,6 +1,6 @@
 # uber-proj
 
-These MATLAB files are used to process analyze data from the Uber TLC lawsuit.
+These MATLAB files are used to analyze data from the Uber TLC lawsuit.
 
 https://github.com/fivethirtyeight/uber-tlc-foil-response
 
