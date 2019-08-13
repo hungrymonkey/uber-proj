@@ -8,14 +8,14 @@ Our group used various clustering algorithms and regression to determine where U
 
 ## Fitting weekday and time vs demand.
 
-### Monday April 14 - 3rd order regression
-![Monday April 14th regression the 3rd order](https://github.com/hungrymonkey/uber-proj/blob/master/apr14_regression_3rd.png "Monday April 14th")
+###  April - 3rd order regression
+![April regression the 3rd order](https://github.com/hungrymonkey/uber-proj/blob/master/apr14_regression_3rd.png " April 3rd order")
 
-### Wednesday April 3 - 1rd order regression
-![Wednesday demand to the 1st order](https://github.com/hungrymonkey/uber-proj/blob/master/regressions/regreesion_apr_3rd_cl_1.png "Wednesday")
+### April - 1st order regression
+![April 1st Order](https://github.com/hungrymonkey/uber-proj/blob/master/regressions/regreesion_apr_3rd_cl_1.png "April 1st order")
 
 ### Saturday August 3 - 2nd order regression
-![Saturday demand to the 2rd order](https://github.com/hungrymonkey/uber-proj/blob/master/regressions/regreesion_aug_3rd_cl_2.png "Saturday")
+![August 2rd order](https://github.com/hungrymonkey/uber-proj/blob/master/regressions/regreesion_aug_3rd_cl_2.png "August 2nd order")
 
 
 ## Clustering Dispatch locations
