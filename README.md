@@ -6,7 +6,7 @@ https://github.com/fivethirtyeight/uber-tlc-foil-response
 
 Our group used various clustering algorithms and regression to determine where Uber can direct their efforts to dispatch demand.
 
-## Fitting weekday and time vs daily demand.
+## Fitting weekday and time vs demand.
 
 ### Monday April 14 - 3rd order regression
 ![Monday April 14th regression the 3rd order](https://github.com/hungrymonkey/uber-proj/blob/master/apr14_regression_3rd.png "Monday April 14th")
