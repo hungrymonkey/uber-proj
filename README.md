@@ -12,7 +12,7 @@ Our group used various clustering algorithms and regression to determine where U
 ![Monday April 14th regression the 3rd order](https://github.com/hungrymonkey/uber-proj/blob/master/apr14_regression_3rd.png "Monday April 14th")
 
 ### Wednesday April 3 - 1rd order regression
-![Wednesday demand to the 1rd order](https://github.com/hungrymonkey/uber-proj/blob/master/regressions/regreesion_apr_3rd_cl_1.png "Wednesday")
+![Wednesday demand to the 1st order](https://github.com/hungrymonkey/uber-proj/blob/master/regressions/regreesion_apr_3rd_cl_1.png "Wednesday")
 
 ### Saturday August 3 - 2nd order regression
 ![Saturday demand to the 2rd order](https://github.com/hungrymonkey/uber-proj/blob/master/regressions/regreesion_aug_3rd_cl_2.png "Saturday")
